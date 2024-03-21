@@ -1,0 +1,40 @@
+PODS:
+  - IQKeyboardManagerSwift (7.0.1)
+  - lottie-ios (4.4.1)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - SVPinCodeView (1.0.0)
+  - SwiftMessages (10.0.0):
+    - SwiftMessages/App (= 10.0.0)
+  - SwiftMessages/App (10.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - ReachabilitySwift
+  - SDWebImage
+  - SVPinCodeView
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - ReachabilitySwift
+    - SDWebImage
+    - SVPinCodeView
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 7f6b1b1d1497855d2beea7f2f10ffcc6978525b1
+  lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  SVPinCodeView: b910e5ca715b49b353f1e787738b823eb10f8902
+  SwiftMessages: d3540f0f981dfbac25bd2ae9a662effa48f76f92
+
+PODFILE CHECKSUM: b022549273fa12c5068a571bb9f9323bc1729506
+
+COCOAPODS: 1.15.2

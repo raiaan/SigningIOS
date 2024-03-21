@@ -6,3 +6,13 @@
 //
 
 import Foundation
+protocol RegisterViewModelType{
+    func saveRegister( success:()->())
+}
+class RegisterViewModel:RegisterViewModelType{
+    func saveRegister(success: () -> ()) {
+        success()
+    }
+    
+    
+}

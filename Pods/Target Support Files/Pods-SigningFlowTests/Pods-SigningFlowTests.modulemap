@@ -1,0 +1,6 @@
+framework module Pods_SigningFlowTests {
+  umbrella header "Pods-SigningFlowTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+protocol LoginViewModelType{
+    func sendOTPcode(phone:String,success:(()->()))
+}
+class LoginViewModel: LoginViewModelType{
+    func sendOTPcode(phone:String,success:(()->())){
+        success()
+    }
+}

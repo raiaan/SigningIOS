@@ -6,3 +6,11 @@
 //
 
 import Foundation
+protocol OTPViewModelType{
+    func checkCode(code:String)->Bool
+}
+class OTPViewModel: OTPViewModelType{
+    func checkCode(code: String) -> Bool {
+        return code == "1111"
+    }
+}
